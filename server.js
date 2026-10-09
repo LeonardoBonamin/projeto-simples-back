@@ -12,7 +12,7 @@ const corsOptions = {
 app.use(cors(corsOptions));
 
 app.get("/", (req, res) => {
-  res.json({ message: "API funcionando com CI/CD no Render via GitHub Actions" })
+  res.json({ message: "API funcionando via GitHub Codespace..." })
 })
 
 app.listen(PORT, () => {
